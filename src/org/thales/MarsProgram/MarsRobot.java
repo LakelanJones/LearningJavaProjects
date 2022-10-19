@@ -2,7 +2,7 @@
 //8/18/22
 //MarsRobot Class 
 
-package org.thales;
+package org.thales.MarsProgram;
 
 public class MarsRobot {
     String status;

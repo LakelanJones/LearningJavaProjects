@@ -2,7 +2,7 @@
 //8/18/22
 //Mars Robot App
 
-package org.thales;
+package org.thales.MarsProgram;
 
 public class MarsApp {
     //main method static indicates the method is a class method shared by all MarsRobot objects
