@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindPrime",
+            "request": "launch",
+            "mainClass": "org.thales.FindPrime",
+            "projectName": "LearningJavaProjects_cceae418"
+        },
+        {
+            "type": "java",
             "name": "Launch HighLowApp",
             "request": "launch",
             "mainClass": "org.thales.HighLowProgram.HighLowApp",
