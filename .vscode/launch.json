@@ -9,6 +9,13 @@
             "name": "Launch HighLowApp",
             "request": "launch",
             "mainClass": "org.thales.HighLowProgram.HighLowApp",
+            "projectName": "LearningJavaProjects_cceae418"
+        },
+        {
+            "type": "java",
+            "name": "Launch HighLowApp",
+            "request": "launch",
+            "mainClass": "org.thales.HighLowProgram.HighLowApp",
             "projectName": "learn-java2022_4efd3e14"
         },
         {
