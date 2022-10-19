@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch HighLowApp",
+            "request": "launch",
+            "mainClass": "org.thales.HighLowProgram.HighLowApp",
+            "projectName": "learn-java2022_4efd3e14"
+        },
+        {
+            "type": "java",
+            "name": "Launch HighLowApp",
+            "request": "launch",
+            "mainClass": "org.thales.HighLowApp",
+            "projectName": "learn-java2022_4efd3e14"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateApp",
+            "request": "launch",
+            "mainClass": "org.thales.DateApp",
+            "projectName": "learn-java2022_4efd3e14"
+        },
+        {
+            "type": "java",
+            "name": "Launch MarsApp",
+            "request": "launch",
+            "mainClass": "MarsApp",
+            "projectName": "learn-java2022_4efd3e14"
+        },
+        {
+            "type": "java",
+            "name": "Launch MarsApp",
+            "request": "launch",
+            "mainClass": "org.thales.MarsApp",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
