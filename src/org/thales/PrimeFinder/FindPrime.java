@@ -1,4 +1,4 @@
-package org.thales;
+package org.thales.PrimeFinder;
 
 public class FindPrime {
     public static void main(String args[]) {

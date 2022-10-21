@@ -2,7 +2,7 @@
 //8/31/2022
 //Convert a US date (MM/DD/YYYY) to EU date (DD/MM/YYYY)
 
-package org.thales;
+package org.thales.DateConverter;
 
 public class DateApp {
     public static void main(String[] args) {
