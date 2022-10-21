@@ -1,26 +1,23 @@
 package org.thales;
 
 public class FindPrime {
-    public static void main (String args[]) {
-    int prime = 2;
+    public static void main(String args[]) {
+        boolean prime = true;
+        int count = 0;
 
-        for(int i = 2; i <= 250; i++) {
+        for(int i = 2; i < 250; i++) {
 
-                if(prime == 2 || prime == 3 || prime == 5 || prime == 7 || prime == 11) {
-                    System.out.println(prime + " is prime.");
-                }
-
-                if(prime % 2 != 0) {
-                    
-                    for(int j = 2; j < prime; j++) {
-
-                        if(prime % j != 0 && prime % 3 != 0 && prime % 5 != 0 && prime % 7 != 0 && prime % 11 != 0) {                           
-                            System.out.println(prime + " is prime");
-                            break;
-                        } 
-                    } 
+            for(int j = i - 1; j > 1; j--) {
+                if (i % j == 0) {
+                    prime = false;
                 }         
-            prime++;
+            }
+            if(prime) {
+                System.out.println(i + " is prime.");
+                count++;
+            }
+            prime = true;
         }
+        System.out.println("There are " + count + " prime numbers between 2 and 250.");
     }
 }

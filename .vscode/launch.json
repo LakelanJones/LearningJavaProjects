@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindPrimeBetter",
+            "request": "launch",
+            "mainClass": "org.thales.FindPrimeBetter",
+            "projectName": "LearningJavaProjects_cceae418"
+        },
+        {
+            "type": "java",
             "name": "Launch FindPrime",
             "request": "launch",
             "mainClass": "org.thales.FindPrime",
